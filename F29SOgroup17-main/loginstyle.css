@@ -1,0 +1,83 @@
+#namebanner {
+    position: fixed;
+    height: 10%;
+    width: 20%;
+    left: 0%;
+    top: 0%;
+}
+
+#loginbutton, #createaccountbutton {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 30px;
+    width: 50%;
+}
+#loginbutton {
+    position: fixed;
+    top: 0px;
+    left: 20%;
+    height: 10%;
+    border: whitesmoke;
+    background-color: whitesmoke;
+}
+#createaccountbutton {
+    position: fixed;
+    top: 0px;
+    left: 60%;
+    height: 10%;
+    border: lightgray;
+    background-color: lightgray;
+}
+#loginbutton:hover, #createaccountbutton:hover {
+    background-color: grey;
+    color: white;
+}
+#body {
+    background-color: white;
+}
+#emailtext, #email, #passwordtext, #password, #inputbutton {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+}
+#emailtext {
+    position: fixed;
+    width: 100%;
+    top:100px;
+    left: 25%;
+}
+#email{
+    position: fixed;
+    width: 50%;
+    top: 120px;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+#passwordtext {
+    position: fixed;
+    width: 100%;
+    top:180px;
+    left: 25%;
+}
+#password {
+    position: fixed;
+    width: 50%;
+    top: 200px;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+#inputbutton {
+    position: fixed;
+    width: 50%;
+    top: 260px;
+    left: 25%;
+    text-align: center;
+    background-color: #ccff98;
+    border: 3px solid lightgray;
+    color: white;
+}
+#inputbutton:hover {
+    background-color: gray;
+    font-weight: bolder;
+}

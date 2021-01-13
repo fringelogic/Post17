@@ -1,0 +1,32 @@
+<!-- CHANNELS PAGE -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Post17 by FringeLogic</title>
+        <link rel = "stylesheet"
+            type = "text/css"
+            href = "channelsstyle.css" />
+
+        <IMG id="namebanner"; SRC="logo.png"></IMG>
+    </head>
+    <body id="body">
+
+        <script type="text/javascript" src="channels.js"></script>
+        
+        <ul>
+            <li><button id="feed" onclick="openFeed();">feed</button></li>
+            <li><button id ="recommended" onclick="openRecommended();">recommended</button></li>
+            <li><button id ="channels">channels</button></li>
+            <li><button id ="challenges" onclick="openChallenges();">challenges</button></li>
+            <li><button id ="myaccount" onclick="openMyAccount();">my account</button></li>
+        </ul>
+
+        <input type="text" id="searchinput"><br>
+        <button id="inputbutton" onclick="searching();">search</button>
+        
+        <p id="searchresult"></p>
+        
+        <button id="newchannel" onclick="newChannel();">create a channel</button>
+       
+    </body>
+</html>
