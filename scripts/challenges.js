@@ -1,15 +1,15 @@
 
 function openFeed() {    
     open("feed.html");
-    close("challenges.html");
+
 }
 function openChannels() {    
     open("channels.html");
-    close("challenges.html");
+ 
 }
 function openMyAccount() {    
     open("myaccount.html");
-    close("challenges.html");
+  
 }
 
 function newChallenge() {
