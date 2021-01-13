@@ -1,7 +1,4 @@
-function openRecommended() {    
-    open("recommended.html");
-    close("myaccount.html");
-}
+
 function openFeed() {    
     open("feed.html");
     close("myaccount.html");

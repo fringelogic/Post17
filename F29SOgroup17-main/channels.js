@@ -1,7 +1,4 @@
-function openRecommended() {    
-    open("recommended.html");
-    close("channels.html");
-}
+
 function openFeed() {    
     open("feed.html");
     close("channels.html");
