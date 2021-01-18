@@ -21,17 +21,25 @@
         
         <form id = form>
             <label for="email" id="emailtext">email:</label><br>
-            <input type="text" id="email" name="email"><br>
+            <input type="text" id="email" name="email" required><br>
+
             <label for="username" id="usernametext">username:</label><br>
-            <input type="text" id="username" name="username"><br>
-            <label for="name" id="nametext">name (seperate first and last?):</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="birth" id="birthtext">date of birth (need to change this):</label><br>
-            <input type="text" id="birth" name="birth"><br>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="fname" id="fnametext">first name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+
+            <label for="lname" id="lnametext">last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+
+            <label for="birth" id="birthtext">date of birth:</label><br>
+            <input type="date" id="birth" name="birth" required><br>
+
             <label for="password" id="passwordtext">password:</label><br>
-            <input type="password" encrypt = "sha1" id="password" name="password"><br>
+            <input type="password" encrypt = "sha1" id="password" name="password" required><br>
+            
             <label for="repassword" id="repasswordtext">re-enter password:</label><br>
-            <input type="password" encrypt = "sha1" id="repassword" name="repassword"><br>
+            <input type="password" encrypt = "sha1" id="repassword" name="repassword" required><br>
             <button id="inputbutton">create account</button>
         </form>
         
