@@ -1,3 +1,4 @@
+a { text-decoration: none; }
 #namebanner {
     position: fixed;
     height: 10%;
@@ -115,4 +116,5 @@ li button {
     visibility: visible;
     white-space: pre-line;
 }
+
 
