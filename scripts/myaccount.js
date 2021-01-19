@@ -1,20 +1,6 @@
-
-
-
 var searchfor;
-var newtext;
 function searching() {
+    // we need to get the input from the text bar for search to send it to the search page
     searchfor = document.getElementById("searchinput").value;
-    if (searchfor != "") {
-        newtext = "Showing results for: "+searchfor+" . . . \n1 result found";
-        document.getElementById("searchresult").innerHTML = newtext;
-        document.getElementById("image1").style.display = "block";
-    }
-    else if (searchfor == "") {
-        newtext = "You didnt enter any key words to search for . . .  ";
-        document.getElementById("searchresult").innerHTML = newtext;
-    }
-    // check with database for match
-    
-    return 1;
+    sessionStorage.setItem("search", searchfor);
 }

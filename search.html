@@ -11,7 +11,7 @@
         
             <IMG id="namebanner"; SRC="images/logo.png"></IMG>
         </head>
-        <body id="body">
+        <body id="body" onload="search()">
         
             <script type="text/javascript" src="scripts/search.js"></script>
                 
@@ -23,9 +23,10 @@
             </ul>
         
             <input type="text" id="searchinput"><br>
-            <button id="inputbutton" onclick="searching();">search</button>
-                
-            <p id="searchresult"></p>
+            <button id="inputbutton" onclick="searching(); location.href='search.html'">search</button>
+
+            <p id="searchresulttext"></p>
+            
                
         </body>
     </html>
