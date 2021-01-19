@@ -74,3 +74,13 @@ li button {
     background-color: grey;
     color: #ccff98;
 }
+#title {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: black;
+    width: 100%;;
+    text-align: center;
+    top: 50px;
+    font-weight: bold;
+}

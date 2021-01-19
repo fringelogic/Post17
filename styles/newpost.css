@@ -48,7 +48,6 @@ li button {
 #body {
     background-color: white;
 }
-
 #searchinput {
     position: fixed;
     top: 1%;
@@ -73,4 +72,46 @@ li button {
 #inputbutton:hover {
     background-color: grey;
     color: #ccff98;
+}
+#title {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: black;
+    width: 100%;;
+    text-align: center;
+    top: 50px;
+    font-weight: bold;
+}
+#imagetext {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    top: 190px;
+    width: 100%;
+    text-align: center;
+
+
+}
+#img {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    height:5%;
+    top: 200px;
+    width: 20%;
+    left: 40%;
+    
+}
+#submit {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    width: 10%;
+    top: 290px;
+    
 }
