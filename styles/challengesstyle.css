@@ -89,13 +89,3 @@ li button {
     background-color: grey;
     color: #ccff98;
 }
-#searchresult {
-    position: fixed;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    top: 110px;
-    left: 1%;
-    visibility: visible;
-    white-space: pre-line;
-}

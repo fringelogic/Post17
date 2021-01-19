@@ -33,7 +33,7 @@ li button {
     background-color: lightgray;
 }
 #channels {
-    background-color: white;
+    background-color: lightgray;
 }
 #challenges {
     background-color: lightgray;
@@ -47,21 +47,6 @@ li button {
 }
 #body {
     background-color: white;
-}
-#newchannel {
-    position: relative;
-    top: 100px;
-    width: 22%;
-    left: 77%;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-    background-color: #ccff98;
-    border: 2px solid black;
-}
-#newchannel:hover {
-    background-color: grey;
-    color: #ccff98;
 }
 
 #searchinput {
@@ -88,4 +73,14 @@ li button {
 #inputbutton:hover {
     background-color: grey;
     color: #ccff98;
+}
+#title {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: black;
+    width: 100%;;
+    text-align: center;
+    top: 50px;
+    font-weight: bold;
 }
