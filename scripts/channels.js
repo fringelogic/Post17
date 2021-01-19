@@ -1,16 +1,4 @@
 
-function openFeed() {    
-    open("feed.html");
-    close("channels.html");
-}
-function openChallenges() {    
-    open("challenges.html");
-    close("channels.html");
-}
-function openMyAccount() {    
-    open("myaccount.html");
-    close("channels.html");
-}
 
 function newChannel() {
     // prompt user for channel name

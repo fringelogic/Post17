@@ -1,39 +1,31 @@
-<!-- FEED PAGE testing -->
+<!-- NEW POST PAGE 
+    accessible from click button on my account page-->
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Post17 by FringeLogic</title>
         <link rel = "stylesheet"
             type = "text/css"
-            href = "styles/feedstyle.css" />
-
+            href = "styles/newpost.css" />
+    
         <IMG id="namebanner"; SRC="images/logo.png"></IMG>
-
-        <IMG id="image1"; SRC="images/image.jpg"></IMG>
-        <IMG id="image2"; SRC="images/image.jpg"></IMG>
-        <IMG id="image3"; SRC="images/image.jpg"></IMG>
-        <IMG id="image4"; SRC="images/image.jpg"></IMG>
-
-
     </head>
     <body id="body">
-
-        <script type="text/javascript" src="scripts/feed.js"></script>
-        <title id="logobackground"></title>
-        
+    
+        <script type="text/javascript" src="scripts/newpost.js"></script>
+            
         <ul>
-            <li><button id="feed">feed</button></li>
+            <li><button id="feed" onclick="location.href='feed.html'">feed</button></li> 
             <li><button id ="channels" onclick="location.href='channels.html'">channels</button></li>
             <li><button id ="challenges" onclick="location.href='challenges.html'">challenges</button></li>
             <li><button id ="myaccount" onclick="location.href='myaccount.html'">my account</button></li>
         </ul>
-
+    
         <input type="text" id="searchinput"><br>
-        <button id="inputbutton" onclick="location.href='search.html'">search</button>
-        
+        <button id="inputbutton" onclick="searching();">search</button>
+            
         <p id="searchresult"></p>
-
-        
-
+           
     </body>
 </html>

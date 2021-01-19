@@ -1,16 +1,4 @@
 
-function openFeed() {    
-    open("feed.html");
-
-}
-function openChannels() {    
-    open("channels.html");
- 
-}
-function openMyAccount() {    
-    open("myaccount.html");
-  
-}
 
 function newChallenge() {
     // do stuff here 

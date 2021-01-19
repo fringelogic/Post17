@@ -1,17 +1,4 @@
 
-function openChannels() {    
-    open("channels.html");
-    close("feed.html");
-}
-function openChallenges() {    
-    open("challenges.html");
-    close("feed.html");
-}
-function openMyAccount() {    
-    open("myaccount.html");
-    close("feed.html");
-}
-
 var searchfor;
 var newtext;
 function searching() {
