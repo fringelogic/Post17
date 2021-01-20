@@ -26,6 +26,22 @@
             <button id="inputbutton" onclick="searching(); location.href='search.html'">search</button>
 
             <p id="title">Create a Challenge</p>
+
+            <form id="form">
+                <label id="nametext">challenge name:</label>
+                <input type="text" id="name" name="name" required><br>
+    
+                <label id="descriptiontext">challenge description:</label>
+                <input type="text" id="description" name="description" required><br>
+    
+                <label id="startdatetext">challenge start date:</label>
+                <input type="date" id="startdate" name="startdate" required><br>
+                
+                <label id="enddatetext">challenge end date:</label>
+                <input type="date" id="enddate" name="enddate" required><br>
+    
+                <input id="submit" type="submit" value="Create Challenge">
+            </form>
             
                
         </body>
