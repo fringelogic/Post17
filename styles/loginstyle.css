@@ -75,9 +75,9 @@
     text-align: center;
     background-color: #ccff98;
     border: 3px solid lightgray;
-    color: white;
+    color: black;
 }
 #inputbutton:hover {
     background-color: gray;
-    font-weight: bolder;
+    color: #ccff98;
 }
