@@ -50,7 +50,7 @@ li button {
 }
 #newchallenge {
     position: relative;
-    top: 100px;
+    top: 75px;
     width: 22%;
     left: 77%;
     font-size: 20px;
@@ -88,4 +88,26 @@ li button {
 #inputbutton:hover {
     background-color: grey;
     color: #ccff98;
+}
+#activechallenges {
+    top: 105px;
+    position: fixed;
+    width: 50%;
+    left: 0px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+#upcomingchallenges {
+    top: 105px;
+    position: fixed;
+    width: 50%;
+    left: 50%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
 }
