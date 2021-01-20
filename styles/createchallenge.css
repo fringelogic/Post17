@@ -84,3 +84,101 @@ li button {
     top: 50px;
     font-weight: bold;
 }
+#nametext {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    top: 175px;
+    width: 50%;
+    left: 25%;
+}
+#name {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    top: 200px;
+    width: 50%;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+#descriptiontext {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    top: 275px;
+    width: 50%;
+    left: 25%;
+}
+#description {
+    width: 50%;
+    left: 25%;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height:5%;
+    top: 300px;
+    border: 3px solid lightgrey;
+}
+#startdatetext {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    top: 375px;
+    width: 50%;
+    left: 25%;
+}
+#startdate {
+    width: 50%;
+    left: 25%;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height:5%;
+    top: 400px;
+    border: 3px solid lightgrey;  
+}
+#enddatetext {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    top: 475px;
+    width: 50%;
+    left: 25%;
+}
+#enddate {
+    width: 50%;
+    left: 25%;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height:5%;
+    top: 500px;
+    border: 3px solid lightgrey;  
+}
+#submit {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 50%;
+    height: 5%;
+    top: 575px;
+    left: 25%;
+    text-align: center;
+    background-color: #ccff98;
+    border: 3px solid lightgrey;
+    color: black;
+}
+#submit:hover {
+    background-color: gray;
+    color: #ccff98;
+}

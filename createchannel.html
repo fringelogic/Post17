@@ -27,5 +27,24 @@
             
             <p id="title">Create a Channel</p>   
 
+            <form id="form">
+                <label id="nametext">channel name:</label>
+                <input type="text" id="name" name="name" required><br>
+    
+                <label id="descriptiontext">channel description:</label>
+                <input type="text" id="description" name="description" required><br>
+    
+                <label id="privacytext">private or public:</label>
+                <input type="radio" id="private" name="privacy" value="private" required><br>
+                <label for="priate" id="privatetext">private</label>
+                <input type="radio" id="public" name="privacy" value="public" required><br>
+                <label for="public" id="publictext">public</label>
+
+                <label id="tagstext">tags (seperated by space):</label>
+                <input type="text" id="tags" name="tags" required><br>
+    
+                <input id="submit" type="submit" value="Create Channel">
+            </form>
+
         </body>
     </html>
