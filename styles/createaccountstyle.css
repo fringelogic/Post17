@@ -129,35 +129,11 @@
     left: 25%;
     text-align: center;
     background-color: #ccff98;
-    border: 3px solid lightgray;
+    border: 3px solid black;
     color: white;
+
 }
 #inputbutton:hover {
     background-color: gray;
     font-weight: bolder;
-}
-
-#searchinput {
-    position: fixed;
-    top: 1%;
-    width: 50%;
-    right: 30%;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    border: 2px solid black;
-}
-#inputbutton {
-    position: fixed;
-    top: 1%;
-    width: 20%;
-    right: 5%;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    background-color: #ccff98;
-    border: 2px solid black;
-}
-#inputbutton:hover {
-    background-color: grey;
 }

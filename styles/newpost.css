@@ -89,11 +89,9 @@ li button {
     font-weight: lighter;
     font-size: 20px;
     height:5%;
-    top: 190px;
-    width: 100%;
-    text-align: center;
-
-
+    top: 175px;
+    width: 50%;
+    left: 25%;
 }
 #img {
     position: fixed;
@@ -101,17 +99,82 @@ li button {
     font-weight: lighter;
     height:5%;
     top: 200px;
-    width: 20%;
-    left: 40%;
-    
+    width: 50%;
+    left: 25%;
 }
-#submit {
+#captiontext {
     position: fixed;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     font-size: 20px;
     height:5%;
-    width: 10%;
-    top: 290px;
-    
+    top: 250px;
+    width: 50%;
+    left: 25%;
+}
+#caption {
+    width: 50%;
+    left: 25%;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height:5%;
+    top: 275px;
+    border: 3px solid lightgrey;
+}
+#tagstext {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    top: 350px;
+    width: 50%;
+    left: 25%;
+}
+#tags {
+    width: 50%;
+    left: 25%;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height:5%;
+    top: 375px;
+    border: 3px solid lightgrey;  
+}
+#geotagtext {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+    top: 450px;
+    width: 50%;
+    left: 25%;
+}
+#geotag {
+    width: 50%;
+    left: 25%;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height:5%;
+    top: 475px;
+    border: 3px solid lightgrey;  
+}
+#submit {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 20%;
+    top: 575px;
+    left: 40%;
+    text-align: center;
+    background-color: #ccff98;
+    border: 2px solid black;
+    color: black;
+}
+#submit:hover {
+    background-color: gray;
+    color: #ccff98;
 }
