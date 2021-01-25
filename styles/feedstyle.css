@@ -48,38 +48,6 @@ li button {
 #body {
     background-color: white;
 }
-#image1 {
-    position: relative;
-    width: 20%;
-    height: auto;
-    left: 2.5%;
-    top: 150px;
-    border: 2px solid black;
-}
-#image2 {
-    position: relative;
-    width: 20%;
-    height: auto;
-    left: 5%;
-    top: 150px;
-    border: 2px solid black;
-}
-#image3 {
-    position: relative;
-    width: 20%;
-    height: auto;
-    left: 7.5%;
-    top: 150px;
-    border: 2px solid black;
-}
-#image4 {
-    position: relative;
-    width: 20%;
-    height: auto;
-    left: 10%;
-    top: 150px;
-    border: 2px solid black;
-}
 
 #searchinput {
     position: fixed;
@@ -105,6 +73,17 @@ li button {
 #inputbutton:hover {
     background-color: grey;
     color: #ccff98;
+}
+.boxed {
+    position: fixed;
+    border: 2px solid lightgrey;
+    background-color: whitesmoke;
+    width: 50%;
+    left: 25%;
+    height: 85%;
+    top: 12%;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 
