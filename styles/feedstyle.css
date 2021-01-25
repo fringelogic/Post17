@@ -29,8 +29,9 @@ li button {
     width: 100%;
     border: lightgray;
 }
+
 #feed {
-    background-color: white;
+    background-color: #ccff98;
 }
 #channels {
     background-color: lightgray;
@@ -46,8 +47,13 @@ li button {
     color: #ffff98;
 }
 #body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
+
+
+
 
 #searchinput {
     position: fixed;

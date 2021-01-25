@@ -39,7 +39,7 @@ li button {
     background-color: lightgray;
 }
 #myaccount {
-    background-color: white;
+    background-color:  #ccff98;
 }
 #feed:hover, #recommended:hover, #search:hover, #channels:hover, #challenges:hover, #myaccount:hover {
     background-color: grey;
