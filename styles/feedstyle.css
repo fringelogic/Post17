@@ -89,21 +89,139 @@ li button {
     height: 85%;
     top: 12%;
     font-family: 'Courier New', Courier, monospace;
+
+    
+}
+#viewaccount {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    border: 2px solid lightgray;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ccff98;
+    height: 6%;
 }
 #feedimage {
     width: 90%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
     border: 2px solid black;
 }
+#avgrate {
+    width: 96%;
+    text-align: center;
+    font-weight: bold;
+    align-self: flex-start;
+    justify-content: center;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#stars {
+    display: flex;
+    align-self: flex-start;
+    width: 96%;
+    justify-content: center;
+    border: 2px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#onestar {
+    margin-left: 1%;
+    border: 2px solid lightgray;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ccff98;
+}
+#twostar {
+    margin-left: 1%;
+    border: 2px solid lightgray;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ccff98;
 
+}
+#threestar {
+    margin-left: 1%;
+    border: 2px solid lightgray;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ccff98;
+
+}
+#fourstar {
+    margin-left: 1%;
+    border: 2px solid lightgray;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ccff98;
+
+}
+#fivestar {
+    margin-left: 1%;
+    border: 2px solid lightgray;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ccff98;
+
+}
+#description {
+    border: 2px solid black;
+    height: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+#comment {
+    display: flex;
+    height: 5%;
+
+}
+#newcomment {
+    width: 69%;
+    height: 100%;
+    border: 2px solid lightgray;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#addcomment {
+    margin-right: 2%;
+    width: 25%;
+    border: 2px solid lightgray;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ccff98;
+}
 
 
 #next {
     font-family: 'Courier New', Courier, monospace;
     border: 2px solid black;
     color: black;
-    background-color: #ffff98;
-    width: 20%;
-    height: 5%;
-    align-self: baseline;
+    background-color: #ccff98;
+    width: 25%;
+    margin-right: 2%;
+    margin-left: 73%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-size: 15px;
 }
 
