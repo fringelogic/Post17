@@ -104,10 +104,15 @@ li button {
     color: #ccff98;
     height: 6%;
 }
+#geotag {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
 #feedimage {
     width: 90%;
     margin-right: 5%;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 5%;
     border: 2px solid black;
 }
@@ -117,7 +122,6 @@ li button {
     font-weight: bold;
     align-self: flex-start;
     justify-content: center;
-    border: 2px solid black;
     display: flex;
     margin-left: 2%;
     margin-right: 2%;
@@ -127,7 +131,6 @@ li button {
     align-self: flex-start;
     width: 96%;
     justify-content: center;
-    border: 2px solid black;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -181,7 +184,6 @@ li button {
 
 }
 #description {
-    border: 2px solid black;
     height: 10%;
     margin-left: 2%;
     margin-right: 2%;
