@@ -16,28 +16,28 @@
         <script type="text/javascript" src="scripts/newpost.js"></script>
             
         <ul>
-            <li><button id="feed" onclick="location.href='feed.html'">feed</button></li> 
-            <li><button id ="channels" onclick="location.href='channels.html'">channels</button></li>
-            <li><button id ="challenges" onclick="location.href='challenges.html'">challenges</button></li>
-            <li><button id ="myaccount" onclick="location.href='myaccount.html'">my account</button></li>
+            <li><button id="feed" onclick="location.href='feed.html'">Feed</button></li> 
+            <li><button id ="channels" onclick="location.href='channels.html'">Channels</button></li>
+            <li><button id ="challenges" onclick="location.href='challenges.html'">Challenges</button></li>
+            <li><button id ="myaccount" onclick="location.href='myaccount.html'">My Account</button></li>
         </ul>
     
         <input type="text" id="searchinput"><br>
-        <button id="inputbutton" onclick="searching(); location.href='search.html'">search</button>
+        <button id="inputbutton" onclick="searching(); location.href='search.html'">Search</button>
 
         <p id="title">Create New Post</p>
 
         <form id="form">
-            <label id="imagetext">select image:</label>
+            <label id="imagetext">Select Image:</label>
             <input type="file" id="img" name="img" accept="image/*">
 
-            <label id="captiontext">image description:</label>
+            <label id="captiontext">Image Description:</label>
             <input type="text" id="caption" name="caption" required><br>
 
-            <label id="tagstext">image tags (seperated by space):</label>
+            <label id="tagstext">Image Tags (seperated by space):</label>
             <input type="text" id="tags" name="tags" required><br>
             
-            <label id="geotagtext">geotag (location):</label>
+            <label id="geotagtext">Geotag (location):</label>
             <input type="text" id="geotag" name="geotag" required><br>
 
             <input id="submit" type="submit" value="Create Post">

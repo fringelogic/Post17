@@ -16,28 +16,28 @@
             <script type="text/javascript" src="scripts/createchallenge.js"></script>
                 
             <ul>
-                <li><button id="feed" onclick="location.href='feed.html'">feed</button></li> 
-                <li><button id ="channels" onclick="location.href='channels.html'">channels</button></li>
-                <li><button id ="challenges" onclick="location.href='challenges.html'">challenges</button></li>
-                <li><button id ="myaccount" onclick="location.href='myaccount.html'">my account</button></li>
+                <li><button id="feed" onclick="location.href='feed.html'">Feed</button></li> 
+                <li><button id ="channels" onclick="location.href='channels.html'">Channels</button></li>
+                <li><button id ="challenges" onclick="location.href='challenges.html'">Challenges</button></li>
+                <li><button id ="myaccount" onclick="location.href='myaccount.html'">My Account</button></li>
             </ul>
         
             <input type="text" id="searchinput"><br>
-            <button id="inputbutton" onclick="searching(); location.href='search.html'">search</button>
+            <button id="inputbutton" onclick="searching(); location.href='search.html'">Search</button>
 
             <p id="title">Create a Challenge</p>
 
             <form id="form">
-                <label id="nametext">challenge name:</label>
+                <label id="nametext">Challenge Name:</label>
                 <input type="text" id="name" name="name" required><br>
     
-                <label id="descriptiontext">challenge description:</label>
+                <label id="descriptiontext">Challenge Description:</label>
                 <input type="text" id="description" name="description" required><br>
     
-                <label id="startdatetext">challenge start date:</label>
+                <label id="startdatetext">Challenge Start Date:</label>
                 <input type="date" id="startdate" name="startdate" required><br>
                 
-                <label id="enddatetext">challenge end date:</label>
+                <label id="enddatetext">Challenge End Date:</label>
                 <input type="date" id="enddate" name="enddate" required><br>
     
                 <input id="submit" type="submit" value="Create Challenge">

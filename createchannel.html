@@ -16,31 +16,31 @@
             <script type="text/javascript" src="scripts/createchannel.js"></script>
                 
             <ul>
-                <li><button id="feed" onclick="location.href='feed.html'">feed</button></li> 
-                <li><button id ="channels" onclick="location.href='channels.html'">channels</button></li>
-                <li><button id ="challenges" onclick="location.href='challenges.html'">challenges</button></li>
-                <li><button id ="myaccount" onclick="location.href='myaccount.html'">my account</button></li>
+                <li><button id="feed" onclick="location.href='feed.html'">Feed</button></li> 
+                <li><button id ="channels" onclick="location.href='channels.html'">Channels</button></li>
+                <li><button id ="challenges" onclick="location.href='challenges.html'">Challenges</button></li>
+                <li><button id ="myaccount" onclick="location.href='myaccount.html'">My Account</button></li>
             </ul>
         
             <input type="text" id="searchinput"><br>
-            <button id="inputbutton" onclick="searching(); location.href='search.html'">search</button>
+            <button id="inputbutton" onclick="searching(); location.href='search.html'">Search</button>
             
             <p id="title">Create a Channel</p>   
 
             <form id="form">
-                <label id="nametext">channel name:</label>
+                <label id="nametext">Channel Name:</label>
                 <input type="text" id="name" name="name" required><br>
     
-                <label id="descriptiontext">channel description:</label>
+                <label id="descriptiontext">Channel Description:</label>
                 <input type="text" id="description" name="description"><br>
     
-                <label id="privacytext">private or public:</label>
+                <label id="privacytext">Private or Public:</label>
                 <input type="radio" id="private" name="privacy" value="private" required><br>
-                <label for="priate" id="privatetext">private</label>
+                <label for="priate" id="privatetext">Private</label>
                 <input type="radio" id="public" name="privacy" value="public" required><br>
-                <label for="public" id="publictext">public</label>
+                <label for="public" id="publictext">Public</label>
 
-                <label id="tagstext">tags (seperated by space):</label>
+                <label id="tagstext">Tags (seperated by space):</label>
                 <input type="text" id="tags" name="tags" required><br>
     
                 <input id="submit" type="submit" value="Create Channel">

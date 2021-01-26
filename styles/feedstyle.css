@@ -51,10 +51,6 @@ li button {
     margin: 0;
     padding: 0;
 }
-
-
-
-
 #searchinput {
     position: fixed;
     top: 1%;
@@ -80,6 +76,12 @@ li button {
     background-color: grey;
     color: #ccff98;
 }
+
+/*       
+Feed 
+*/
+
+
 #feedbox {
     position: fixed;
     border: 2px solid lightgrey;
@@ -89,30 +91,43 @@ li button {
     height: 85%;
     top: 12%;
     font-family: 'Courier New', Courier, monospace;
+    display: grid;
 
     
 }
 #viewaccount {
+  
     width: 50%;
     margin-left: 25%;
-    margin-top: 2%;
+    margin-top: 1%;
     border: 2px solid lightgray;
     background-color: gray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 15px;
     color: #ccff98;
-    height: 6%;
+    font-size: 10px;
+}
+#geodiv {
+    display: flex;
+    align-self: flex-start;
+    width: 96%;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#globe {
+    width: 5%;
+    
 }
 #geotag {
     margin-left: 2%;
     margin-right: 2%;
     text-align: center;
 }
+
 #feedimage {
     width: 90%;
     margin-right: 5%;
-    margin-top: 1%;
     margin-left: 5%;
     border: 2px solid black;
 }
@@ -140,7 +155,6 @@ li button {
     background-color: gray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 15px;
     color: #ccff98;
 }
 #twostar {
@@ -149,7 +163,6 @@ li button {
     background-color: gray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 15px;
     color: #ccff98;
 
 }
@@ -159,7 +172,6 @@ li button {
     background-color: gray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 15px;
     color: #ccff98;
 
 }
@@ -169,7 +181,6 @@ li button {
     background-color: gray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 15px;
     color: #ccff98;
 
 }
@@ -179,11 +190,11 @@ li button {
     background-color: gray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 15px;
     color: #ccff98;
 
 }
 #description {
+    
     height: 10%;
     margin-left: 2%;
     margin-right: 2%;
@@ -191,7 +202,8 @@ li button {
 }
 #comment {
     display: flex;
-    height: 5%;
+    height: 100%;
+
 
 }
 #newcomment {
@@ -200,16 +212,18 @@ li button {
     border: 2px solid lightgray;
     margin-left: 2%;
     margin-right: 2%;
+    font-size: 10px;
 }
 #addcomment {
     margin-right: 2%;
     width: 25%;
+    height: 100%;
     border: 2px solid lightgray;
     background-color: gray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 15px;
     color: #ccff98;
+    font-size: 10px;
 }
 
 
@@ -218,12 +232,14 @@ li button {
     border: 2px solid black;
     color: black;
     background-color: #ccff98;
+    height: 100%;
     width: 25%;
     margin-right: 2%;
     margin-left: 73%;
-    margin-top: 2%;
-    margin-bottom: 2%;
     font-weight: bold;
     font-size: 15px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+ 
 }
 
