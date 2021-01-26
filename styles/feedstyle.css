@@ -74,7 +74,7 @@ li button {
     background-color: grey;
     color: #ccff98;
 }
-.boxed {
+#feedbox {
     position: fixed;
     border: 2px solid lightgrey;
     background-color: whitesmoke;
@@ -83,7 +83,21 @@ li button {
     height: 85%;
     top: 12%;
     font-family: 'Courier New', Courier, monospace;
-    
+}
+#feedimage {
+    width: 90%;
+    border: 2px solid black;
 }
 
+
+
+#next {
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    color: black;
+    background-color: #ffff98;
+    width: 20%;
+    height: 5%;
+    align-self: baseline;
+}
 
