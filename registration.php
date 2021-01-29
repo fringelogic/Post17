@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-    require('db.php');
+    require('connect_db.php');
     // When form submitted, insert values into the database.
     if (isset($_REQUEST['username'])) {
         // removes backslashes
