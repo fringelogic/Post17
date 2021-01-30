@@ -24,7 +24,6 @@ else {
         <input type="submit" value="Login" name="submit" class="login-button"/>
         <p class="link"><a href="registration.php">New Registration</a></p>
   </form>
-<?php
 }
 ?>
 
